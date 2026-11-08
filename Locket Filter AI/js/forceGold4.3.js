@@ -51,8 +51,8 @@ if (ua.includes("Locket")) {
             title: "Đã Kich Hoạt 💛",
             feature_set: [
                 {
-                    title: "Youtube @NightmarketServer ✨",
-                    body: "Nhớ Follow Kênh Ủng Hộ Mình Nhé 💛",
+                    title: "Trương Phú Trọng✨",
+                    body: "Chào mừng đến với Locket của Phú Trọng nhé💛",
                     imageURL: "https://i.postimg.cc/15BPkqNN/173376ce-0cb2-411c-80db-fe9adc931718.png"
                 }
             ],
@@ -183,39 +183,17 @@ if (ua.includes("Locket")) {
     // 4. BẠN BÈ, GIỚI HẠN & ĐỀ XUẤT KẾT BẠN
     // ============================================================
     Object.assign(obj.entries, {
-        max_friends_count: "999999",
+        max_friends_count: "999999999",
         friend_limit_mode: "0",
-        soft_friend_limit_threshold_count: "999999",
+        soft_friend_limit_threshold_count: "999999999",
         show_friend_limit_on_cam: "false",
-        signup_max_friends_count: "999999",
-        celebrity_inbox_limit: "999999",
+        signup_max_friends_count: "999999999",
+        celebrity_inbox_limit: "999999999",
+        celebrity_inbox_enabled: "true",
+        celebrity_vip_qr_redemption_enabled: "true",
         friend_limit_geo_override: JSON.stringify({ experiments: {}, area_code_overrides: {} }),
-        friends_sheet_locket_count_config: JSON.stringify({
-            items: [
-                { threshold: 0, icon_name: "heart" },
-                { threshold: 1, icon_name: "heart.fill" },
-                { threshold: 10, emoji: "🤍" },
-                { threshold: 100, emoji: "💛" },
-                { threshold: 500, emoji: "❤️‍🔥" },
-                { threshold: 1000, emoji: "🌟🫶🌟" },
-                { threshold: 2000, emoji: "✨💟✨" },
-                { threshold: 5000, emoji: "⚡️😵‍💫⚡" },
-                { threshold: 10000, emoji: "✨⚡️😱⚡✨" }
-            ]
-        }),
-        friend_locket_count_config: JSON.stringify({
-            items: [
-                { threshold: 0, icon_name: "heart" },
-                { threshold: 1, icon_name: "heart.fill" },
-                { threshold: 10, emoji: "🤍" },
-                { threshold: 100, emoji: "💛" },
-                { threshold: 500, emoji: "❤️‍🔥" },
-                { threshold: 1000, emoji: "✨💗✨" },
-                { threshold: 2000, emoji: "✨️⭐️✨" },
-                { threshold: 5000, emoji: "✨💎✨" },
-                { threshold: 10000, emoji: "✨🔐💛✨" }
-            ]
-        }),
+        friends_sheet_locket_count_config: JSON.stringify({ items: [ { threshold: 0, icon_name: "heart" }, { threshold: 1, icon_name: "heart.fill" }, { threshold: 10, emoji: "🤍" }, { threshold: 100, emoji: "💛" }, { threshold: 500, emoji: "❤️‍🔥" }, { threshold: 1000, emoji: "🌟🫶🌟" }, { threshold: 2000, emoji: "✨💟✨" }, { threshold: 5000, emoji: "⚡️😵‍💫⚡" }, { threshold: 10000, emoji: "✨⚡️😱⚡✨" } ]}),
+        friend_locket_count_config: JSON.stringify({ items: [ { threshold: 0, icon_name: "heart" }, { threshold: 1, icon_name: "heart.fill" }, { threshold: 10, emoji: "🤍" }, { threshold: 100, emoji: "💛" }, { threshold: 500, emoji: "❤️‍🔥" }, { threshold: 1000, emoji: "✨💗✨" }, { threshold: 2000, emoji: "✨️⭐️✨" }, { threshold: 5000, emoji: "✨💎✨" }, { threshold: 10000, emoji: "✨🔐💛✨" } ]}),
         new_friends_monitoring_enabled: "true",
         improved_friend_suggestions: "true",
         show_friend_suggestions_by_default: "true",
@@ -228,7 +206,10 @@ if (ua.includes("Locket")) {
         show_all_contacts: "true",
         show_invite_suggestions: "true",
         show_no_friends_bottom_sheet: "false",
-        signup_allow_skip_add_friends: "true"
+        signup_allow_skip_add_friends: "true",
+        signup_custom_profile_picture: "true",
+        user_data_export_enabled: "true",
+        username_suggestions_enabled: "true",
     });
 
     // ============================================================
