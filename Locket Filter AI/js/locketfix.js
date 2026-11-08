@@ -4783,59 +4783,37 @@ Object.assign(obj.entries, {
 
 // 4. BẠN BÈ, GIỚI HẠN & ĐỀ XUẤT KẾT BẠN
 // ============================================================
-Object.assign(obj.entries, {
-    max_friends_count: "999999",
-    friend_limit_mode: "disabled",
-    soft_friend_limit_threshold_count: "999999",
-    show_friend_limit_on_cam: "false",
-    signup_max_friends_count: "999999",
-    celebrity_inbox_limit: "999999",
-    celebrity_inbox_enabled: "true",
-    celebrity_vip_qr_redemption_enabled: "true",
-    friend_limit_geo_override: JSON.stringify({ experiments: {}, area_code_overrides: {} }),
-    friends_sheet_locket_count_config: JSON.stringify({
-        items: [
-            { threshold: 0, icon_name: "heart" },
-            { threshold: 1, icon_name: "heart.fill" },
-            { threshold: 10, emoji: "🤍" },
-            { threshold: 100, emoji: "💛" },
-            { threshold: 500, emoji: "❤️‍🔥" },
-            { threshold: 1000, emoji: "🌟🫶🌟" },
-            { threshold: 2000, emoji: "✨💟✨" },
-            { threshold: 5000, emoji: "⚡️😵‍💫⚡" },
-            { threshold: 10000, emoji: "✨⚡️😱⚡✨" }
-        ]
-    }),
-    friend_locket_count_config: JSON.stringify({
-        items: [
-            { threshold: 0, icon_name: "heart" },
-            { threshold: 1, icon_name: "heart.fill" },
-            { threshold: 10, emoji: "🤍" },
-            { threshold: 100, emoji: "💛" },
-            { threshold: 500, emoji: "❤️‍🔥" },
-            { threshold: 1000, emoji: "✨💗✨" },
-            { threshold: 2000, emoji: "✨️⭐️✨" },
-            { threshold: 5000, emoji: "✨💎✨" },
-            { threshold: 10000, emoji: "✨🔐💛✨" }
-        ]
-    }),
-    new_friends_monitoring_enabled: "true",
-    improved_friend_suggestions: "false",
-    show_friend_suggestions_by_default: "false",
-    emoji_friend_suggestions: "false",
-    prompt_contact_permissions_on_search: "false",
-    populate_phone_numbers_from_suggest_friends: "false",
-    hide_friends_enabled: "false",
-    hide_invite_links: "false",
-    hide_skip_contacts: "false",
-    show_all_contacts: "false",
-    show_invite_suggestions: "false",
-    show_no_friends_bottom_sheet: "false",
-    signup_allow_skip_add_friends: "true",
-    signup_custom_profile_picture: "true",
-    user_data_export_enabled: "true",
-    username_suggestions_enabled: "true"
-});
+// 4. BẠN BÈ, GIỚI HẠN & ĐỀ XUẤT KẾT BẠN
+    // ============================================================
+    Object.assign(obj.entries, {
+        max_friends_count: "999999999",
+        friend_limit_mode: "0",
+        soft_friend_limit_threshold_count: "999999999",
+        show_friend_limit_on_cam: "false",
+        signup_max_friends_count: "999999999",
+        celebrity_inbox_limit: "999999999",
+        celebrity_inbox_enabled: "true",
+        celebrity_vip_qr_redemption_enabled: "true",
+        friend_limit_geo_override: JSON.stringify({ experiments: {}, area_code_overrides: {} }),
+        friends_sheet_locket_count_config: JSON.stringify({ items: [ { threshold: 0, icon_name: "heart" }, { threshold: 1, icon_name: "heart.fill" }, { threshold: 10, emoji: "🤍" }, { threshold: 100, emoji: "💛" }, { threshold: 500, emoji: "❤️‍🔥" }, { threshold: 1000, emoji: "🌟🫶🌟" }, { threshold: 2000, emoji: "✨💟✨" }, { threshold: 5000, emoji: "⚡️😵‍💫⚡" }, { threshold: 10000, emoji: "✨⚡️😱⚡✨" } ]}),
+        friend_locket_count_config: JSON.stringify({ items: [ { threshold: 0, icon_name: "heart" }, { threshold: 1, icon_name: "heart.fill" }, { threshold: 10, emoji: "🤍" }, { threshold: 100, emoji: "💛" }, { threshold: 500, emoji: "❤️‍🔥" }, { threshold: 1000, emoji: "✨💗✨" }, { threshold: 2000, emoji: "✨️⭐️✨" }, { threshold: 5000, emoji: "✨💎✨" }, { threshold: 10000, emoji: "✨🔐💛✨" } ]}),
+        new_friends_monitoring_enabled: "true",
+        improved_friend_suggestions: "true",
+        show_friend_suggestions_by_default: "true",
+        emoji_friend_suggestions: "true",
+        prompt_contact_permissions_on_search: "true",
+        populate_phone_numbers_from_suggest_friends: "true",
+        hide_friends_enabled: "true",
+        hide_invite_links: "false",
+        hide_skip_contacts: "true",
+        show_all_contacts: "true",
+        show_invite_suggestions: "true",
+        show_no_friends_bottom_sheet: "false",
+        signup_allow_skip_add_friends: "true",
+        signup_custom_profile_picture: "true",
+        user_data_export_enabled: "true",
+        username_suggestions_enabled: "true",
+    });
 
 // ============================================================
 // 5. MOMENTS, STREAK, CHAT & TƯƠNG TÁC
