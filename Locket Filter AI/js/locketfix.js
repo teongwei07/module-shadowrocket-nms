@@ -139,8 +139,8 @@ Object.assign(obj.entries, {
         title: "Đã Kich Hoạt 💛",
         feature_set: [
             {
-                title: "Youtube @NightmarketServer ✨",
-                    body: "Nhớ Follow Kênh Ủng Hộ Mình Nhé 💛",
+                title: "Phú Trọng ✨",
+                    body: "Chào mừng đến với Locket Gold của mình nhé💛",
                     imageURL: "https://i.postimg.cc/15BPkqNN/173376ce-0cb2-411c-80db-fe9adc931718.png"
             }
         ],
@@ -5939,7 +5939,7 @@ Object.assign(obj.entries, {
                 ]
         },
         {
-                "section": "🎨 Decorative by MinhHiep08",
+                "section": "🎨 Decorative by Phu Trong",
                 "items": [
                         {
                                 "overlay_id": "caption:bunniesept nah",
