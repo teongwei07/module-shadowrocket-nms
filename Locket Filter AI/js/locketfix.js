@@ -5037,7 +5037,9 @@ Object.assign(obj.entries, {
     overlay_dynamic_captions: JSON.stringify([
         "standard", "poll", "color_palette", "review", "music", "location",
         "weather", "time", "streak", "star_sign", "party_time", "locket_count",
-        "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026"
+        "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026",
+                    "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", 
+            "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a", "co_mot_su_xinh_dep_o_day", "baothycute"
     ]),
     overlay_items: JSON.stringify([
         {
@@ -5943,6 +5945,7 @@ Object.assign(obj.entries, {
                 items: [
                     { overlay_id: "caption:wo_ai_ni", source: "remote", caption: { background: { colors: ["#FF9A9E", "#FECFEF", "#FFC3A0"] }, icon: { data: "🌷", type: "emoji" }, max_lines: 1, text: "我爱你", localized_text: { en: "我爱你", vn: "我爱你" }, text_color: "#FFFFFF", type: "static_content" } },
                      { overlay_id: "caption:co_mot_su_xinh_dep_o_day", source: "remote", caption: { background: { colors: ["#FF85A1", "#FFB3C6", "#FFE5EC"] }, icon: { data: "🌺", type: "emoji" }, max_lines: 1, text: "Có một sự xinh đẹp ở đây", localized_text: { en: "Có một sự xinh đẹp ở đây", vn: "Có một sự xinh đẹp ở đây" }, text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:baothycute", source: "remote", caption: { background: { colors: ["#FFB7B2", "#FFDAC1", "#E2F0CB"] }, icon: { data: "😊", type: "emoji" }, max_lines: 1, text: "baothycute", localized_text: { en: "baothycute", vn: "baothycute" }, text_color: "#6D597A", type: "static_content" } },
                     { overlay_id: "caption:hoc_lam_z_troi", source: "remote", caption: { background: { colors: ["#6B7280", "#9CA3AF", "#D1D5DB"] }, icon: { data: "😵‍💫", type: "emoji" }, max_lines: 1, text: "Học lắm z trời", localized_text: { en: "Học lắm z trời", vn: "Học lắm z trời" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:gut_mo_ninh", source: "remote", caption: { background: { colors: ["#FF8C00", "#FFA500", "#FFD700"] }, icon: { data: "☀️", type: "emoji" }, max_lines: 1, text: "Gút mó ninh", localized_text: { en: "Gút mó ninh", vn: "Gút mó ninh" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:bao_nua_roi_a", source: "remote", caption: { background: { colors: ["#FF416C", "#FF4B2B"] }, icon: { data: "😠", type: "emoji" }, max_lines: 1, text: "Báo nữa rồi á", localized_text: { en: "Báo nữa rồi á", vn: "Báo nữa rồi á" }, text_color: "#FFFFFF", type: "static_content" } },
